@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가위 바위 보</title>
+    <link rel="shortcut icon" type="image⁄x-icon" href="./img/scissors.jpg">
+    <link rel="stylesheet" href="./css/rsp.css">
+    <script src="./js/jquery3.6.1.min.js"></script>
+    <script src="./js/rsp.js"></script>
+</head>
+<body>
+    <h1>가위, 바위, 보 게임!</h1> <br><br>
+
+
+
+    <div class="rsp">
+
+        <button type="button" onclick="user(1)"><img src="./img/scissors.jpg" id="sci"></button>
+
+        <button type="button" onclick="user(2)"><img src="./img/rock.jpg" id="roc"></button>
+        
+        <button type="button" onclick="user(3)"><img src="./img/paper.jpg" id="pap"></button>
+    </div>
+    
+    <br><br>
+    <h1>게임 결과</h1>
+    <br>
+
+    <div id="slide">
+        <div id="slide_rsp">
+            <img src="./img/scissors.jpg" id="coms" alt="sci">
+            <img src="./img/rock.jpg" id="comr" alt="roc">
+            <img src="./img/paper.jpg" id="comp" alt="pap">
+        </div>
+    </div>
+        
+    <div>
+        <span>승:</span>
+        <span>무:</span>
+        <span>패:</span>
+    </div>
+</body>
+</html>

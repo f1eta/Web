@@ -1,0 +1,55 @@
+
+
+
+
+h1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+
+#sci {
+    
+    width: 200px;
+    height: 200px;
+}
+
+#roc {
+    
+    
+    width: 200px;
+    height: 200px;
+}
+
+#pap {
+    
+    
+    width: 200px;
+    height: 200px;
+}
+
+#slide{
+    overflow:hidden;
+    position:relative;
+    z-index: 1;
+}
+
+#slide > #slide_rsp{
+    width:600px;
+    height:200px;
+    margin: 0 auto;
+    
+    z-index: 1;
+}
+
+#slide>#slide_rsp>img{
+    width: 200px;
+    height: 200px;
+    float:left;
+    z-index: 1;
+}
+
