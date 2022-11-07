@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="승아 디자이너">
+    <meta property="og:description" content="프로필">
+    <meta property="og:image" content="./images/profileImage.png">
+    <title>프로필</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Nanum Gothic', sans-serif;
+        }
+
+        body{
+            background-image: url(./images/back.jpg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .profile{
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+
+            border: 2px solid white;
+
+            background-image: url('./images/profileImage.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .main{
+            color: white;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        }
+
+        .sub{
+            color: white;
+            font-size: 15px;
+            margin-top: 0px;
+            margin-bottom: 15px;
+            text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        }
+
+        .wrap{
+            
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrap > a {
+            width: 300px;
+            height: 60px;
+            background-color: pink;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-size: 15px;
+            font-weight: bold;
+            color:skyblue;
+            text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        
+        .wrap > a:hover {
+            background-color: blueviolet;
+        }
+
+        .pro {
+            background: pink;
+            backdrop-filter: blur(35px);
+            width: 300px;
+            height: 230px;
+            border-radius: 8px;
+            margin-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 3px 3px 5px 0px black;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="pro">
+            <div class="profile"></div>
+            <h1 class="main">승아</h1>
+            <p class="sub">유키니언 범어 헤어디자이너</p>
+        </div>
+
+        <a target="_blank" href="https://m.blog.naver.com/PostList.naver?blogId=za_z__0">네이버카페</a>
+        <a target="_blank" href="https://www.instagram.com/ag.nues/">인스타그램</a>
+        <a target="_blank" href="https://m.booking.naver.com/booking/13/bizes/340541/items/4295330?area=pll">네이버 예약</a>
+        <a target="_blank" href="./images/profileImage.png" id="qr">QR</a>
+    </div>
+</body>
+</html>
